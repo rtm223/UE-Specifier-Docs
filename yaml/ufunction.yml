@@ -177,6 +177,7 @@ specifiers:
     position: meta
     comment:
       Internally calls SearchForAutocastFunction
+      Will only work for public functions in a Blueprint Function Library - protected will allow you to create the node manually but will not spawn the node automatically
     documentation:
       text: Used only by static BlueprintPure functions from a Blueprint function library. A cast node will be automatically added for the return type and the type of the first parameter of the function.
       source: https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Functions/
